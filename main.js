@@ -13,7 +13,6 @@ function button1Clicked() {
     console.log("Button 1 was clicked"); 
     let random_num = Math.random()*100;
     let buttonDiv = document.getElementById("random_num");
-    buttonDiv.innerHTML = new_num;
     buttonDiv.innerHTML = newText;
     printRand.innerHTML = random_num;
 }
