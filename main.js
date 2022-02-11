@@ -15,4 +15,3 @@ function button1Clicked() {
     let buttonDiv = document.getElementById("random_num");
     buttonDiv.innerHTML = new_num;
 }
-}
