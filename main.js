@@ -12,7 +12,7 @@ Modified: 12/06/21
 function button1Clicked() {
     console.log("Button 1 was clicked"); 
     let buttonDiv = document.getElementById("button-div");
-    let printRand = document.getElementById("random_num")
+    let printRand = document.getElementById("random_num");
     let random_num = Math.random()*100;
-    printRand.innerHTML = random_num;
+    buttonDiv.innerHTML = random_num;
 }
